@@ -1,0 +1,10 @@
+# specific files
+
+# specific directories
+/venv
+/migrations
+/__pycache__
+/pycache
+
+# specific file extensions
+*.pyc
