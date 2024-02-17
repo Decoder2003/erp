@@ -2,9 +2,7 @@
 
 # specific directories
 /venv
-/erp/migrations
-/__pycache__
-/pycache
+/erp/client/migrations
 
 # specific file extensions
 *.pyc
