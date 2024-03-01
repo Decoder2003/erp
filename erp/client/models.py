@@ -39,7 +39,7 @@ class User(AbstractUser):
 class institution(models.Model):
     name = models.CharField(max_length=100)
     def __str__(self):
-        return self.name
+        return f"{self.name}"
 
 class degree(models.Model):
     name = models.CharField(max_length=100)

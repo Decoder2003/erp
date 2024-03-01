@@ -1,0 +1,15 @@
+from client.viewset import *
+from rest_framework import routers
+router = routers.DefaultRouter()
+router.register('user', UserViewSet, 'user')
+router.register('institution', institutionViewSet, 'institution')
+router.register('degree', degreeViewSet, 'degree')
+router.register('field_of_study', field_of_studyViewSet, 'field_of_study')
+router.register('education', educationViewSet, 'education')
+router.register('feed', feedViewSet, 'feed')
+router.register('image', imageViewSet, 'image')
+router.register('interaction', interactionViewSet, 'interaction')
+router.register('group', groupViewSet, 'group')
+router.register('group_membership', group_membershipViewSet, 'group_membership')
+router.register('post', postViewSet, 'post')
+router.register('event', eventViewSet, 'event')

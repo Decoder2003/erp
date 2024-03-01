@@ -40,6 +40,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'client',
     'import_export',
+    'rest_framework',
+    # 'rest_framework.authtoken',
+    # 'oauth2_provider',
+    # 'drf_social_oauth2'
 ]
 
 MIDDLEWARE = [
