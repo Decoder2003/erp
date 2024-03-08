@@ -2,7 +2,7 @@
 
 # specific directories
 /venv
-client/migrations
+/erp/client/migrations
 
 # specific file extensions
 *.pyc
